@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>展示豆瓣未登录首页的chrome插件 | Litten的博客</title>
+  <meta name="baidu-site-verification" content="MtIxpKvyGg" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="某天，我惊讶的发现，豆瓣未登陆时的首页，比登录后的首页还要好玩！其实，并不是只有我一个人这么觉得，我甚至见过有人专门打开隐身窗口刷此页面，真是机智的少年。        
 不是很理解之余，这个chrome插件豆瓣首页 for chome就诞生了。
@@ -30,7 +31,16 @@
   
   <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0b8e8ee87e4708173f00d9048c309301";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
 </head>
 <body>
   <div id="container">
@@ -303,18 +313,20 @@
   </div>
 </footer>
     </div>
-    
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
 
   <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
-  <script src="/js/main.js" type="text/javascript"></script>
 
 
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0b8e8ee87e4708173f00d9048c309301' type='text/javascript'%3E%3C/script%3E"));
-</script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
 
   </div>
 </body>

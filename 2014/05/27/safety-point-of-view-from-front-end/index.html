@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>前端安全冷门知识杂谈 | Litten的博客</title>
+  <meta name="baidu-site-verification" content="MtIxpKvyGg" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="零、概述
 提起web前端安全，大家都会想到两个名词：xss和csrf。抛去这最常见，最被广泛应用的两者，我想谈谈一些难以觉察的，比较偏门的安全关注点。大概分为以下章节：
@@ -43,7 +44,16 @@
   
   <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0b8e8ee87e4708173f00d9048c309301";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
 </head>
 <body>
   <div id="container">
@@ -378,18 +388,20 @@
   </div>
 </footer>
     </div>
-    
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
 
   <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
-  <script src="/js/main.js" type="text/javascript"></script>
 
 
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0b8e8ee87e4708173f00d9048c309301' type='text/javascript'%3E%3C/script%3E"));
-</script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
 
   </div>
 </body>

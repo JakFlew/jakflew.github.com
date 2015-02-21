@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>网易“聚合阅读”布局的实现 | Litten的博客</title>
+  <meta name="baidu-site-verification" content="MtIxpKvyGg" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="网易聚合阅读的出现的确让人惊艳了一下。流畅的交互,使碎片化的新闻资讯像报纸一样摊在眼前,这是信息大爆炸的时代产物。不管你能不能接受这种新阅读形式，事实上，每天越来越多的新闻层出不穷，还没被人看到就已成为了“旧闻”。回归报纸的版面设计，堆叠新闻模块，让用户告别一条接一条整齐的新闻链接，而是在一个版面上提供更多的信息，不失为一种尝试。
 而抛去产品的层面，从前端方向来看，“聚合阅读”也有许多值得">
@@ -27,7 +28,16 @@
   
   <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0b8e8ee87e4708173f00d9048c309301";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
 </head>
 <body>
   <div id="container">
@@ -332,18 +342,20 @@
   </div>
 </footer>
     </div>
-    
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
 
   <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
-  <script src="/js/main.js" type="text/javascript"></script>
 
 
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0b8e8ee87e4708173f00d9048c309301' type='text/javascript'%3E%3C/script%3E"));
-</script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
 
   </div>
 </body>
