@@ -4,7 +4,7 @@
   <subtitle><![CDATA[热爱大海与冷笑话的黎小腾君]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://litten.github.io/"/>
-  <updated>2015-02-22T16:25:36.009Z</updated>
+  <updated>2015-02-23T06:21:52.300Z</updated>
   <id>http://litten.github.io/</id>
   
   <author>
@@ -13,6 +13,47 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo主题Yilia在移动端适配的一些事]]></title>
+    <link href="http://litten.github.io/2015/02/23/yilia-on-mobile/"/>
+    <id>http://litten.github.io/2015/02/23/yilia-on-mobile/</id>
+    <published>2015-02-23T04:58:00.000Z</published>
+    <updated>2015-02-23T06:21:02.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>是我去年9月开发的主题，本来只是想给自己玩，因而开始有许多“任性”的设计。诸如“我本可以兼容ie，但我就不”这种…<br>结果star数越来越多，半年里，居然成为了搜索“hexo-theme”最多star数的主题。<br>感慨大家跟我一样任性的同时，也是受宠若惊，万分感谢！</p>
+<p>而年前的主要矛盾，是日益增多的star和fork数，与功能还未完善之间的矛盾；以及越来越多的bug被大家发现，与我忙得飞起只好假装没发现这些bug的矛盾…</p>
+<p>默默放下抢红包的手机，还是决定先把关于hexo最想解决的三件事之一：移动端适配给做了。</p>
+<a id="more"></a>
+
+<h2 id="三件事">三件事</h2>
+<p>话说这三件事一直有放在心上，是使用hexo时还不够满意的地方。<br><br>             </p>
+<ol>
+<li><strong>移动端适配。</strong>就很多主题来看，响应式布局就等同于移动端适配，这是远远不足够的。布局影响的仅仅是视觉，还必须有特有的交互逻辑，以适应大家的操作习惯。</li>
+<li><strong>seo。</strong>hexo的seo还比较弱，description需要支持文章自定义比较稳妥，而把标签云塞到keyword里面去是个好想法。</li>
+<li><strong>模块化加载。</strong>把fancybox，jiathis，duoshuo这些给延迟加载，移动端和pc端js分离。就瀑布图来看，是有信心提速20%-30%的。<br><br></li>
+</ol>
+<h2 id="移动端适配">移动端适配</h2>
+<p>关于适配着重在这些方面：</p>
+<ul>
+<li>滚动时视觉感官上的流畅性</li>
+<li>便于单手操作</li>
+<li>次要信息在左侧边栏的收纳管理</li>
+</ul>
+<video controls autoplay name="media"><source src="/assets/video/yilia-mobile.mp4" type="video/mp4"></video>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>是我去年9月开发的主题，本来只是想给自己玩，因而开始有许多“任性”的设计。诸如“我本可以兼容ie，但我就不”这种…<br>结果star数越来越多，半年里，居然成为了搜索“hexo-theme”最多star数的主题。<br>感慨大家跟我一样任性的同时，也是受宠若惊，万分感谢！</p>
+<p>而年前的主要矛盾，是日益增多的star和fork数，与功能还未完善之间的矛盾；以及越来越多的bug被大家发现，与我忙得飞起只好假装没发现这些bug的矛盾…</p>
+<p>默默放下抢红包的手机，还是决定先把关于hexo最想解决的三件事之一：移动端适配给做了。</p>
+]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://litten.github.io/tags/hexo/"/>
+    
+      <category term="主题" scheme="http://litten.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[IT圈装逼速成指南]]></title>
