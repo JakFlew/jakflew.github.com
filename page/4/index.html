@@ -187,6 +187,75 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-web-worker-learning" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2013/09/25/web-worker-learning/" class="article-date">
+  	<time datetime="2013-09-25T02:55:00.000Z" itemprop="datePublished">Sep 25</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2013/09/25/web-worker-learning/">web worker简易入门</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>js是单线程的语言，由于此特性，我们在处理并发时需要用到一些技巧，如setTimeout()，setInterval()，调用XMLHttpRequest等。<br>但这里的并发只是非阻塞（参照John Resig的文章<a href="http://ejohn.org/blog/how-javascript-timers-work/" target="_blank" rel="external">How JavaScript Timers Work</a>），真正的多线程编程则需要HTML5的web worker。<br><!-- more --></p>
+<h3 id="【worker的使用】"><strong>【worker的使用】</strong></h3>
+<p>web worker的使用非常简单，线程之间通讯的api与html5 postmessage或node.js里面的socket.io方法类似。</p>
+<p>通讯：      </p>
+<ol>
+<li>发送方：postMessage(data)      </li>
+<li>接收方：onmessage(event)</li>
+</ol>
+<p>终止web worker:        </p>
+<ol>
+<li>子线程: self.close()</li>
+<li>父线程: worker.terminate()</li>
+</ol>
+<p>按照目前w3c规范，web worker分为两种：专用worker(Dedicated Worker)和共享worker(Shared Worker)。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html5/">html5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2013/09/25/web-worker-learning/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+  
     <article id="post-my-fairy-tale2" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -606,66 +675,9 @@
 
 
   
-    <article id="post-css3-animater" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2012/12/31/css3-animater/" class="article-date">
-  	<time datetime="2012-12-30T16:02:00.000Z" itemprop="datePublished">Dec 31</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2012/12/31/css3-animater/">当我想用css3实现一个动作类库</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>当我如是想的时候，事实上我已想了很久。后来被各种纠结的差事冲乱了生活和心绪，并且心里认为这是个妥当无比的借口。找到了借口后一拖再拖，果然认识到deadline才是第一生产力的真理。最近，却是被朋友的一句话逼急了，他跟我说：我们的业务用到了css4的新属性！</p>
-<p>这句话的意思，大体等同于说，我买到了一个iphone6，亲你怎么看？<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css3/">css3</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2012/12/31/css3-animater/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/5/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next &raquo;</a>
     </nav>
   
 </div>
