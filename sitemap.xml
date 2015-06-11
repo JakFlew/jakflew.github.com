@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://litten.github.io/2015/06/05/viewing-commentary/</loc>
+    <lastmod>2015-06-11T16:35:02.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://litten.github.io/2015/05/25/logic-of-chord/</loc>
     <lastmod>2015-05-25T15:44:19.000Z</lastmod>
   </url>
@@ -39,11 +44,6 @@
   <url>
     <loc>http://litten.github.io/2014/10/16/douban-index-for-chrome/</loc>
     <lastmod>2014-11-07T08:47:57.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://litten.github.io/2012/12/31/css3-animater/</loc>
-    <lastmod>2014-10-12T03:15:19.000Z</lastmod>
   </url>
   
   <url>
@@ -203,6 +203,11 @@
   
   <url>
     <loc>http://litten.github.io/2014/02/12/about-pjax/</loc>
+    <lastmod>2014-10-12T03:15:19.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://litten.github.io/2012/12/31/css3-animater/</loc>
     <lastmod>2014-10-12T03:15:19.000Z</lastmod>
   </url>
   
